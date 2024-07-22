@@ -1,15 +1,15 @@
-import {Home} from "./components/customize/Home.tsx";
+import {HomeStay} from "./components/customize/HomeStay.tsx";
 
 
 function App() {
 
-
-  return (
-    <>
-        <Home/>
-
-    </>
-  )
+    return (
+        <>
+            <div className='App bg-slate-100'>
+                <HomeStay/>
+            </div>
+        </>
+    )
 }
 
 export default App
