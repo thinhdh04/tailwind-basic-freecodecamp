@@ -1,4 +1,4 @@
-import {Home} from "./components/color/Home.tsx";
+import {Home} from "./components/customize/Home.tsx";
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <>
         <Home/>
+
     </>
   )
 }
