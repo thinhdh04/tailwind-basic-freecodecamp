@@ -3,12 +3,14 @@ export const Home = () => {
     return (
         <>
 
-                <h1 className='border'>
+            <div>
+                <h1 className='border-4 border-green-600'>
                     Hello World!
                 </h1>
-                <h1 className='text-yellow-600/50 text-4xl font-bold'>
+                <h1 className='text-vuejs-932'>
                     Hello World!
                 </h1>
+            </div>
 
         </>
     )
