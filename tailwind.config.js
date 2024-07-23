@@ -5,6 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontSize: {
+      xs: '15px',
+      sm: '12px',
+      base: '18px',
+      xl: '24px',
+      xl2: '48px',
+      xl3: '72px',
+    },
     screens: {
       sm: '480px',
       md: '768px',

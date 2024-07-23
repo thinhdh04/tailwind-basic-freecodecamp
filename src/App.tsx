@@ -1,13 +1,11 @@
-import {HomeStay} from "./components/customize/HomeStay.tsx";
+import {Home} from "./components/typography/Home.tsx";
 
 
 function App() {
 
     return (
         <>
-            <div className='App bg-slate-100'>
-                <HomeStay/>
-            </div>
+            <Home/>
         </>
     )
 }
